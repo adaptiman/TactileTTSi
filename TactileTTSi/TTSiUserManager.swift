@@ -77,16 +77,6 @@ class UserManager { //this is a Singleton pattern
         set { defaults.set(newValue, forKey: participantKeys.phaseOneUrlString)}
     }
     
-    //    var pitch: Float {
-    //        get { return (defaults.objectForKey(participantKeys.pitchFloat) as? Float ?? 1.0)!}
-    //        set { defaults.setObject(newValue, forKey: participantKeys.pitchFloat)}
-    //    }
-    //
-    //    var rate: Float {
-    //        get { return (defaults.object(forKey: participantKeys.rateFloat) as? Float ?? 0.5)!}
-    //        set { defaults.set(newValue, forKey: participantKeys.rateFloat)}
-    //    }
-    
     func generateParticipantGuid() -> String {
         
         //generate a participant UUID that will be used to identify the participant
@@ -109,7 +99,7 @@ class UserManager { //this is a Singleton pattern
         
         //generate a participant trial starting with 1 and incrementing
         participantTrial = participantTrial + 1
-        participantTrial = 1
+        //participantTrial = 1
         print("generateParticipantTrial=\(participantTrial)")
         return participantTrial
     }

@@ -136,8 +136,6 @@
 				845018091EB17FD10089D3E2 /* TTSiPhaseOneViewController.swift */,
 				845018351EB181810089D3E2 /* TTSiUserManager.swift */,
 				8450180B1EB17FD10089D3E2 /* Main.storyboard */,
-				845018101EB17FD10089D3E2 /* LaunchScreen.storyboard */,
-				845018131EB17FD10089D3E2 /* Info.plist */,
 			);
 			path = TactileTTSi;
 			sourceTree = "<group>";
@@ -163,12 +161,22 @@
 		84E0CF081EB19934001B4E61 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				84E0CF221EB19C47001B4E61 /* Protocol Files */,
+				8450180E1EB17FD10089D3E2 /* Assets.xcassets */,
+				845018101EB17FD10089D3E2 /* LaunchScreen.storyboard */,
+				845018131EB17FD10089D3E2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84E0CF221EB19C47001B4E61 /* Protocol Files */ = {
+			isa = PBXGroup;
+			children = (
 				84E0CF091EB19989001B4E61 /* Chapter07.txt */,
 				84E0CF0A1EB19989001B4E61 /* filler.txt */,
 				84E0CF0B1EB19989001B4E61 /* gettysburg.txt */,
 				84E0CF0C1EB19989001B4E61 /* orientationControl.txt */,
 				84E0CF0D1EB19989001B4E61 /* orientationExperimental.txt */,
-				8450180E1EB17FD10089D3E2 /* Assets.xcassets */,
 				84E0CF0E1EB19989001B4E61 /* paragraphtest.txt */,
 				84E0CF0F1EB19989001B4E61 /* protocol.txt */,
 				84E0CF101EB19989001B4E61 /* protocolch10.txt */,
@@ -177,7 +185,7 @@
 				84E0CF131EB19989001B4E61 /* training.txt */,
 				84E0CF141EB19989001B4E61 /* trainingshort.txt */,
 			);
-			name = "Supporting Files";
+			name = "Protocol Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

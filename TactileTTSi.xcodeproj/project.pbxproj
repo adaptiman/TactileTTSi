@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		845018081EB17FD10089D3E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845018071EB17FD10089D3E2 /* AppDelegate.swift */; };
-		8450180A1EB17FD10089D3E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845018091EB17FD10089D3E2 /* ViewController.swift */; };
+		8450180A1EB17FD10089D3E2 /* TTSiPhaseOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845018091EB17FD10089D3E2 /* TTSiPhaseOneViewController.swift */; };
 		8450180D1EB17FD10089D3E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8450180B1EB17FD10089D3E2 /* Main.storyboard */; };
 		8450180F1EB17FD10089D3E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8450180E1EB17FD10089D3E2 /* Assets.xcassets */; };
 		845018121EB17FD10089D3E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845018101EB17FD10089D3E2 /* LaunchScreen.storyboard */; };
 		8450181D1EB17FD10089D3E2 /* TactileTTSiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8450181C1EB17FD10089D3E2 /* TactileTTSiTests.swift */; };
 		845018281EB17FD10089D3E2 /* TactileTTSiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845018271EB17FD10089D3E2 /* TactileTTSiUITests.swift */; };
+		845018361EB181810089D3E2 /* TTSiUserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845018351EB181810089D3E2 /* TTSiUserManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		845018041EB17FD10089D3E2 /* TactileTTSi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TactileTTSi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		845018071EB17FD10089D3E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		845018091EB17FD10089D3E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		845018091EB17FD10089D3E2 /* TTSiPhaseOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTSiPhaseOneViewController.swift; sourceTree = "<group>"; };
 		8450180C1EB17FD10089D3E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8450180E1EB17FD10089D3E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		845018111EB17FD10089D3E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,7 @@
 		845018231EB17FD10089D3E2 /* TactileTTSiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TactileTTSiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		845018271EB17FD10089D3E2 /* TactileTTSiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TactileTTSiUITests.swift; sourceTree = "<group>"; };
 		845018291EB17FD10089D3E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		845018351EB181810089D3E2 /* TTSiUserManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TTSiUserManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				845018071EB17FD10089D3E2 /* AppDelegate.swift */,
-				845018091EB17FD10089D3E2 /* ViewController.swift */,
+				845018091EB17FD10089D3E2 /* TTSiPhaseOneViewController.swift */,
+				845018351EB181810089D3E2 /* TTSiUserManager.swift */,
 				8450180B1EB17FD10089D3E2 /* Main.storyboard */,
 				8450180E1EB17FD10089D3E2 /* Assets.xcassets */,
 				845018101EB17FD10089D3E2 /* LaunchScreen.storyboard */,
@@ -262,7 +265,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8450180A1EB17FD10089D3E2 /* ViewController.swift in Sources */,
+				845018361EB181810089D3E2 /* TTSiUserManager.swift in Sources */,
+				8450180A1EB17FD10089D3E2 /* TTSiPhaseOneViewController.swift in Sources */,
 				845018081EB17FD10089D3E2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
